@@ -1,0 +1,183 @@
+.column {
+    flex: 1;
+    background: url('./1024px-Flag_of_Malaysia.svg.png') no-repeat center/cover;
+    animation: upDown 1000ms ease-in-out infinite alternate backwards;
+}
+
+@keyframes upDown {
+    from {
+        transform: translateY(8px);
+        filter: brightness(0.8);
+    }
+
+    to {
+        transform: translateY(4px);
+        filter: brightness(1.0);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+.column:nth-child(1) {
+    background-position: 0px;
+    animation-delay: 100ms;
+}
+
+.column:nth-child(2) {
+    background-position: -30px;
+    animation-delay: 200ms;
+}
+
+.column:nth-child(3) {
+    background-position: -52px;
+    animation-delay: 300ms;
+}
+
+.column:nth-child(4) {
+    background-position: -68px;
+    animation-delay: 400ms;
+}
+
+.column:nth-child(5) {
+    background-position: -84px;
+    animation-delay: 500ms;
+}
+
+.column:nth-child(6) {
+    background-position: -100px;
+    animation-delay: 600ms;
+}
+
+.column:nth-child(7) {
+    background-position: -116px;
+    animation-delay: 700ms;
+}
+
+.column:nth-child(8) {
+    background-position: -132px;
+    animation-delay: 800ms;
+}
+
+.column:nth-child(9) {
+    background-position: -149px;
+    animation-delay: 900ms;
+}
+
+.column:nth-child(10) {
+    background-position: -165px;
+    animation-delay: 1000ms;
+}
+
+.column:nth-child(11) {
+    background-position: -181px;
+    animation-delay: 1100ms;
+}
+
+.column:nth-child(12) {
+    background-position: -197px;
+    animation-delay: 1200ms;
+}
+
+.column:nth-child(13) {
+    background-position: -213px;
+    animation-delay: 1300ms;
+}
+
+.column:nth-child(14) {
+    background-position: -229px;
+    animation-delay: 1400ms;
+}
+
+.column:nth-child(15) {
+    background-position: -245px;
+    animation-delay: 1500ms;
+}
+
+.column:nth-child(16) {
+    background-position: -277px;
+    animation-delay: 1600ms;
+}
+
+.column:nth-child(17) {
+    background-position: -277px;
+    animation-delay: 1700ms;
+}
+
+.column:nth-child(18) {
+    background-position: -330px;
+    animation-delay: 1800ms;
+}
+
+.column:nth-child(19) {
+    background-position: -330px;
+    animation-delay: 1900ms;
+}
+
+.column:nth-child(20) {
+    background-position: -330px;
+    animation-delay: 2000ms;
+}
+
+.column:nth-child(21) {
+    background-position: -330px;
+    animation-delay: 2100ms;
+}
+
+.column:nth-child(22) {
+    background-position: -330px;
+    animation-delay: 2200ms;
+}
+
+.column:nth-child(23) {
+    background-position: -330px;
+    animation-delay: 2300ms;
+}
+
+.column:nth-child(24) {
+    background-position: -330px;
+    animation-delay: 2400ms;
+}
+
+.column:nth-child(25) {
+    background-position: -330px;
+    animation-delay: 2500ms;
+}
+
+.column:nth-child(26) {
+    background-position: -330px;
+    animation-delay: 2600ms;
+}
+
+.column:nth-child(27) {
+    background-position: -330px;
+    animation-delay: 2700ms;
+}
+
+.column:nth-child(28) {
+    background-position: -330px;
+    animation-delay: 2800ms;
+}
+
+.column:nth-child(29) {
+    background-position: -330px;
+    animation-delay: 2900ms;
+}
+
+.column:nth-child(30) {
+    background-position: -330px;
+    animation-delay: 3000ms;
+}
+.column:nth-child(31) {
+    background-position: -330px;
+    animation-delay: 3100ms;
+}
+
+.column:nth-child(32) {
+    background-position: -330px;
+    animation-delay: 3200ms;
+}
+
+.column:nth-child(33) {
+    background-position: -330px;
+    animation-delay: 3300ms;
+}
