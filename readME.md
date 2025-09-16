@@ -2,7 +2,7 @@
 
 An interactive **Malaysia Day themed fireworks generator** built with **HTML, CSS, and JavaScript**. Click anywhere on the canvas to launch fireworks, tweak settings in the control panel, and enjoy festive sound effects!
 
-This project is built from my previous HTML and CSS Jalur Gemilang Waving flag mini project: https://github.com/Nurzarina/Jalur_Gemilang
+This project is built from my previous HTML and CSS Jalur Gemilang Waving flag mini project. For more details on the waving flag animation, you're welcome to check out this repo:: https://github.com/Nurzarina/Jalur_Gemilang
 
 ---
 
@@ -22,7 +22,7 @@ This project is built from my previous HTML and CSS Jalur Gemilang Waving flag m
   * Adjust particle count, spread, gravity, fade rate, and trail length.
   * Toggle automatic fireworks mode.
   * Choose from preset color palettes.
-* **Sound effects** on explosion (randomized for variety).
+* **Sound effects** on explosion.
 * Supports **mouse and touch input**.
 
 ---
@@ -38,9 +38,8 @@ fireworks-generator/
 │   └── fireworks.css                            # Styling for fireworks
 │   └── jalur_gemilang_animated.css              # Styling and animations for Jalur Gemilang flag
 └── assets/
-    ├── sounds/                                  # Explosion sound files
-    │   ├── boom1.mp3
-    │   └── boom2.mp3
+    ├── sounds/                                  # Explosion sound file
+    │   └── boom1.mp3
     └── images/                          
         └── 1024px-Flag_of_Malaysia.svg.png      # Malaysia flag PNG file
 ```
