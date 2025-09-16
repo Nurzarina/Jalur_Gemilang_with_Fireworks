@@ -1,6 +1,6 @@
 .column {
     flex: 1;
-    background: url('./1024px-Flag_of_Malaysia.svg.png') no-repeat center/cover;
+    background: url('../assets/images/1024px-Flag_of_Malaysia.svg.png') no-repeat center/cover;
     animation: upDown 1000ms ease-in-out infinite alternate backwards;
 }
 

@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Jalur Gemilang with Fireworks Generator</title>
-    <link rel="stylesheet" href="./jalur_gemilang_animated.css">
-    <link rel="stylesheet" href="./fireworks.css">
+    <link rel="stylesheet" href="./css/jalur_gemilang_animated.css">
+    <link rel="stylesheet" href="./css/fireworks.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <!-- Canvas for fireworks -->
             <canvas id="c"></canvas>
 
-            <h1 class="title">Happy Malaysia Day!</h1>
+            <h1 class="title">Selamat Hari Malaysia!</h1>
 
             <!-- Jalur Gemilang flag -->
             <div class="flag-wrap">
@@ -188,6 +188,14 @@
         let autoMode = false;
         let autoTimer = 0;
 
+        // Sound function
+        function playExplosionSound() {
+            const sounds = ["./assets/sounds/boom1.mp3"];
+            const audio = new Audio(sounds[Math.floor(Math.random() * sounds.length)]);
+            audio.volume = 0.4;
+            audio.play();
+        }
+
         // Spawn firework function
         function spawnFirework(x, y, opts = {}) {
             const pcount = +controls.particles.value;
@@ -203,6 +211,7 @@
                 const p = new Particle(x, y, vx, vy, color, 1);
                 particles.push(p);
             }
+            playExplosionSound();
         }
 
         // Palettes
