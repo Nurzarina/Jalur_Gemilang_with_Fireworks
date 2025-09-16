@@ -104,10 +104,6 @@
      background: linear-gradient(180deg, var(--accent), #fad67a);
  }
 
- #clearBtn:hover {
-     background: rgba(240, 210, 210, 0.075);
- }
-
  .small {
      font-size: 13px;
      color: #ddd
