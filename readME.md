@@ -27,10 +27,18 @@ This project is built from my previous HTML and CSS Jalur Gemilang Waving flag m
 
 ---
 
+## 🛠️ Tech Stack
+
+* **HTML5 Canvas** (for rendering)
+* **CSS3** (for styling UI)
+* **Vanilla JavaScript** (for animation, controls, sounds)
+
+---
+
 ## 📂 Folder Structure
 
 ```
-fireworks-generator/
+Jalur_Gemilang_with_Fireworks/
 │
 ├── readME.md                                    # readME file
 ├── index.html                                   # Main entry point
@@ -68,8 +76,6 @@ Simply open `index.html` in any modern browser (I've only tested with Chrome). N
 
 ---
 
-## 🛠️ Tech Stack
+## Known Issue
 
-* **HTML5 Canvas** (for rendering)
-* **CSS3** (for styling UI)
-* **Vanilla JavaScript** (for animation, controls, sounds)
+1. The color preset needs to be clicked more than once before the color palette is applied.
